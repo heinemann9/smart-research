@@ -1,0 +1,8 @@
+[project]
+name = "smart-research"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "notebooklm-mcp-cli>=0.4.4",
+]
