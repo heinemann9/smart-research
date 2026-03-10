@@ -1,0 +1,149 @@
+{
+  "name": "RAG Evaluation and Advanced Architectures",
+  "children": [
+    {
+      "name": "RAG Evaluation Tools",
+      "children": [
+        {
+          "name": "RAGAS: Automated metrics for precision/recall"
+        },
+        {
+          "name": "LangSmith: Tracing and dataset management"
+        },
+        {
+          "name": "Arize Phoenix: OpenTelemetry tracing and visualization"
+        },
+        {
+          "name": "TruLens: Programmatic feedback functions"
+        },
+        {
+          "name": "LlamaIndex Suite: End-to-end diagnosis"
+        },
+        {
+          "name": "DeepEval: Unit-testing framework for LLMs"
+        },
+        {
+          "name": "Promptfoo: Test-driven prompt engineering"
+        }
+      ]
+    },
+    {
+      "name": "Evaluation Metrics",
+      "children": [
+        {
+          "name": "Retrieval: Recall@k, MRR, Precision"
+        },
+        {
+          "name": "Generation: Faithfulness, Relevancy, Coherence"
+        },
+        {
+          "name": "Systems: Latency, Cost, Hallucination Detection"
+        }
+      ]
+    },
+    {
+      "name": "Advanced RAG Patterns",
+      "children": [
+        {
+          "name": "Agentic RAG",
+          "children": [
+            {
+              "name": "Autonomous planning and multi-step reasoning"
+            },
+            {
+              "name": "Dynamic tool use and iterative retrieval"
+            },
+            {
+              "name": "Finite-horizon POMDP formalization"
+            },
+            {
+              "name": "Self-correction and reflection loops"
+            }
+          ]
+        },
+        {
+          "name": "GraphRAG",
+          "children": [
+            {
+              "name": "Knowledge graphs for structured entity relations"
+            },
+            {
+              "name": "Multi-hop reasoning across nodes/edges"
+            },
+            {
+              "name": "Graph of Records (GoR) for summarization"
+            },
+            {
+              "name": "Higher accuracy for schema-bound queries"
+            }
+          ]
+        },
+        {
+          "name": "Multi-Modal RAG",
+          "children": [
+            {
+              "name": "Processing text, tables, and images"
+            },
+            {
+              "name": "Image summarization via vision LLMs"
+            },
+            {
+              "name": "Multi-vector retrievers for diverse formats"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Context Engineering",
+      "children": [
+        {
+          "name": "Beyond prompts to system architecture"
+        },
+        {
+          "name": "Dynamic assembly of history and live data"
+        },
+        {
+          "name": "Mitigating context poisoning and distraction"
+        },
+        {
+          "name": "Handling million-token window limitations"
+        }
+      ]
+    },
+    {
+      "name": "Chunking Strategies",
+      "children": [
+        {
+          "name": "Fixed-size: Fast and predictable"
+        },
+        {
+          "name": "Recursive: Respects document structure"
+        },
+        {
+          "name": "Semantic: Groups text by meaning"
+        },
+        {
+          "name": "Hierarchical: Parent-child retrieval precision"
+        }
+      ]
+    },
+    {
+      "name": "Industry Applications",
+      "children": [
+        {
+          "name": "Healthcare: Diagnostic support and accuracy"
+        },
+        {
+          "name": "Legal: Case law research and contract review"
+        },
+        {
+          "name": "Finance: Strategic analysis and reporting"
+        },
+        {
+          "name": "Coding: Agentic software engineering"
+        }
+      ]
+    }
+  ]
+}
